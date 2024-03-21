@@ -1,0 +1,17 @@
+.flex {
+  display: flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.margin_top {
+  margin-top: 16px;
+}
+
+.space_between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

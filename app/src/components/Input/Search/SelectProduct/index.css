@@ -1,0 +1,38 @@
+.searched_list {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  position: absolute;
+  top: 32px;
+  background-color: var(--color-neutral-300);
+  color: rgb(17, 24, 41);
+  text-decoration: none;
+  font-size: var(--font-size-small);
+  color: var(--font-primary--shade--one);
+  padding: 3px;
+  gap: 3px;
+  overflow-y: auto;
+  z-index: 1;
+}
+
+.searched_list > li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  cursor: pointer;
+  padding: 5px;
+  gap: 3px;
+  background-color: var(--bg-primary);
+  flex: 10;
+}
+
+.searched_list > li:hover {
+  background-color: var(--content-primary--shade--one);
+  color: var(--font-strong-title);
+}
+
+.searched_name {
+  font-size: var(--font-size-medium);
+  color: var(--font-primary);
+  font-weight: 700;
+}

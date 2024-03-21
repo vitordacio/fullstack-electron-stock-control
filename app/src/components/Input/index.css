@@ -1,0 +1,80 @@
+.title {
+  display: flex;
+  margin-bottom: 3px;
+
+  color: var(--font-primary);
+  font-family: var(--font-family-secondary);
+}
+
+.container_input {
+  position: relative;
+  width: 100%;
+  background-color: var(--content-primary);
+  color: var(--font-primary);
+  margin-bottom: 8px;
+}
+
+.container_input > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--border-radius);
+  margin: 0 3px;
+  cursor: pointer;
+  /* background-color: black; */
+}
+
+.input_text {
+  min-height: 32px;
+  border-radius: 8px;
+  width: 100%;
+  border: 1px solid #999;
+
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.icon_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 40px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+
+  background-color: transparent;
+  border: none;
+}
+
+.icon_container > img {
+  width: 18px;
+  height: 18px;
+}
+
+.input_qtd {
+  background-color: var(--tag-color-produtos);
+}
+
+.input_sale_price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 24px;
+  border-radius: 8px;
+  background-color: #272727;
+  width: 100%;
+  color: white;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: none;
+}
+
+.input_disabled {
+  background-color: var(--bg-old-side-bar--shade--one);
+}
